@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(64, 64, 224, 0.658), rgb(255, 255, 255), rgba(240, 240, 240, 0.651));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    margin: 50px auto;
+    width: 370px;
+    height: 600px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: #f1f1f1;
+    box-shadow:  8px 8px 15px #808080, -8px -8px 15px #91b8eb3b;
+}
+
+i{
+    font-size: 2em;
+    padding: 15px;
+    
+}
+
+button{
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: inset 8px 8px 15px #b1b1b193,
+                inset -8px -8px 15px #ffffff;
+
+    border: none;
+                
+}
+
+.sub-con1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.sub-con2{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.sub-con2 img{
+     width: 225px;
+     border-radius: 50% ;
+     box-shadow:  8px 8px 15px #808080, -8px -8px 15px #08cce63b;
+}
+
+.minutes{
+    width: 85%;
+    height: 8px;
+    background-image: linear-gradient(to right, rgb(18, 175, 223),rgb(82, 101, 136), rgb(13, 188, 219));
+    border-radius: 5px;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.sub-con3{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.button2{
+
+    border-radius: 10px;
+background: #e0e0e0;
+box-shadow:  8px 8px 8px #bebebe,
+             -8px -8px 8px #ffffff;
+}
+
+.sub-con4{
+
+    width: 45%;
+    height: 5px;
+    background-image: linear-gradient(rgb(141, 141, 141),rgb(233, 233, 233), white);
+    border-radius: 4px;
+    margin: auto;
+
+}
+
+.button2:hover{
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    color: blue;
+}
+
+img:hover{
+    width: 250px;
+    transition: .2s;
+    
+}
